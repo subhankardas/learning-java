@@ -1,5 +1,6 @@
 package basics.string;
 
+import java.util.StringJoiner;
 import java.util.StringTokenizer;
 
 public class StringDemo {
@@ -52,8 +53,26 @@ public class StringDemo {
 		}
 		
 		System.out.println();
-		System.out.println("---------------------------");
 		System.out.println(strBuffer);
+		System.out.println("---------------------------");
+		
+		// Joining strings using delimeters
+		StringJoiner strJoiner = new StringJoiner("/");
+		
+		strJoiner.add("Some");
+		System.out.println(strJoiner);
+		strJoiner.add("random text");
+		System.out.println(strJoiner);
+		strJoiner.add("joined");
+		System.out.println(strJoiner);
+		
+		strJoiner = new StringJoiner(":", "{", "}");
+		
+		strJoiner.add("key 1").add("value 1");
+		System.out.println(strJoiner);
+		
+		strJoiner.add("key 2").add("value 2");
+		System.out.println(strJoiner);
 		
 	}
 	
