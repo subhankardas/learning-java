@@ -1,4 +1,4 @@
-package basics;
+package basics.inheritance;
 
 /**
  * Bounded parameters: Restricting the generic type class

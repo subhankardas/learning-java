@@ -1,4 +1,4 @@
-package basics;
+package basics.misc;
 
 /**
  * Demonstrates the object class, static blocks,

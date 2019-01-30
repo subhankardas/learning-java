@@ -1,4 +1,4 @@
-package basics;
+package basics.misc;
 
 // Simple enum declaration
 enum Employee {
