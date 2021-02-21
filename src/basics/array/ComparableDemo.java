@@ -11,6 +11,7 @@ import java.util.List;
 public class ComparableDemo {
 
 	public static void main(String[] args) {
+		
 		// Populate the list of users
 		List<User> users = new ArrayList<>();
 		users.add(new User(2, "Subhankar"));
@@ -30,6 +31,7 @@ public class ComparableDemo {
 		for (Object ar : arr) {
 			System.out.println(ar);
 		}
+		
 	}
 
 }

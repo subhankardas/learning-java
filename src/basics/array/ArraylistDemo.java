@@ -8,6 +8,7 @@ import java.util.List;
 public class ArraylistDemo {
 
 	public static void main(String[] args) {
+		
 		int[] arr = (int[]) Array.newInstance(int.class, 5);
 		List<Integer> list = new ArrayList<>();
 		
@@ -26,6 +27,7 @@ public class ArraylistDemo {
 		
 		System.out.println("Old reference match: " + (oldRef == arr));
 		System.out.println("New reference match: " + (newRef == arr));
+		
 	}
 
 }

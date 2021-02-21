@@ -8,6 +8,7 @@ package basics.array;
 public class JaggedArrayDemo {
 
 	public static void main(String[] args) {
+		
 		final int ROWS = 4;
 		int count = 7;
 		
@@ -33,6 +34,7 @@ public class JaggedArrayDemo {
 			}
 			System.out.println();
 		}
+		
 	}
 
 }
