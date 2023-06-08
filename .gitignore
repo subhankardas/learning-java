@@ -25,3 +25,5 @@
 .classpath
 build
 data.txt
+target
+*.vscode*
