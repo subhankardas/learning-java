@@ -9,3 +9,5 @@
 5. Method references: The reference to a static method holds the syntax *ContainingClass::methodName*.
 6. Optional: Optional is a container that may or may not contain a non-null value. It helps prevent null pointer exceptions.
 7. Functional Interfaces in java.util.function Package: Java 8 introduced several functional interfaces in the java.util.function package, such as Predicate, Function, Consumer, and Supplier.
+8. New Date and Time API: Java 8 introduced a modern date and time API in the java.time package.
+9. Default Methods for Sorting in Collections: The List, Set, and Map interfaces got default methods for sorting elements.
