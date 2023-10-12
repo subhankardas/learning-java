@@ -8,3 +8,4 @@
     2. Static methods: Available only through and inside of an interface. It can’t be overridden by an implementing class.
 5. Method references: The reference to a static method holds the syntax *ContainingClass::methodName*.
 6. Optional: Optional is a container that may or may not contain a non-null value. It helps prevent null pointer exceptions.
+7. Functional Interfaces in java.util.function Package: Java 8 introduced several functional interfaces in the java.util.function package, such as Predicate, Function, Consumer, and Supplier.
