@@ -1,4 +1,4 @@
-package future_executor;
+package executor_service;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
